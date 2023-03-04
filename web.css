@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300&display=swap');
+
+header{
+  padding: 40px;
+  display: block;
+  text-align: center;
+  color: white;
+  background-color: #70798c;
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #f5f1ed; 
+}
+
+.bar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.bar li {
+  float: left;
+}
+
+.bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.bar li a:hover {
+  background-color: #111;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icon img{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* .profile{
+  float: right;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 20px;
+} */
+
+#intro h1 {
+  font-family: 'Barlow', sans-serif;
+  font-style: Light;
+  padding-left: 10px;
+}
+
+#intro p{
+  font-family: 'Barlow', sans-serif;
+  font-style: ExtraLight 200;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  
+}
+
+#education h1{
+  font-family: 'Barlow', sans-serif;
+  font-style: Light;
+  padding-left: 10px;
+}
+
+#education p{
+  font-family: 'Barlow', sans-serif;
+  font-style: ExtraLight 200;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#education h3{
+  font-family: 'Barlow', sans-serif;
+  font-style: Light;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+#education ul{
+  padding-left: 80px;
+}
+#education li{
+  font-family: 'Barlow', sans-serif;
+  font-style: ExtraLight 200;
+}
+
+#interest h1{
+  font-family: 'Barlow', sans-serif;
+  font-style: Light;
+  text-align: justify;
+  padding-left: 10px;
+
+}
+
+#interest p{
+  font-family: 'Barlow', sans-serif;
+  font-style: ExtraLight 200;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#project h1{
+  font-family: 'Barlow', sans-serif;
+  font-style: Light;
+  padding-left: 10px;
+}
+
+#project p{
+  font-family: 'Barlow', sans-serif;
+  font-style: ExtraLight 200;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+#project li{
+  font-family: 'Barlow', sans-serif;
+  font-style: ExtraLight 200;
+}
+
+#skills h1{
+  font-family: 'Barlow', sans-serif;
+  font-style: Light;
+  padding-left: 10px;
+
+}
+
+#skills li{
+  font-family: 'Barlow', sans-serif;
+  font-style: ExtraLight 200;
+}
+
+#job h1{
+  font-family: 'Barlow', sans-serif;
+  font-style: Light;
+  padding-left: 10px;
+
+}
+
+#job p{
+  font-family: 'Barlow', sans-serif;
+  font-style: ExtraLight 200;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer p{
+  padding: 10px;
+  display: block;
+  text-align: center;
+  color: white;
+  background-color: #333;
+  font-family: 'Poiret One', cursive;
+  font-size: 15px;
+}
